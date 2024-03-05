@@ -29,7 +29,7 @@ def on_forever():
                 150,
                 sphero.RawMotorModes.FORWARD,
                 150)
-        if receivedNumber == 3`1:
+        if receivedNumber == 31:
             sphero.set_raw_motors(sphero.RawMotorModes.BACKWARD,
                 80,
             sphero.RawMotorModes.BACKWARD,
